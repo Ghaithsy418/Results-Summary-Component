@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $neutral-pale-blue;
+    font-size: 0.8rem;
+    font-family: "Hanken Grotesk",sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12rem;
+    font-weight: 500;
+}
+
+.component{
+    width: 39rem;
+    border-radius: 20px;
+    background-color: $neutral-white;
+}
+
+.component--flex{
+    display: flex;
+}

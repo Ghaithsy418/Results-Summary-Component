@@ -1,0 +1,59 @@
+@media (max-width:40rem){
+
+    body{
+        margin-top:2rem;
+    }
+
+    .component{
+        width:19.5rem;
+    }
+
+    .component--flex{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .result{
+        gap:0.4rem;
+        height: 20rem;
+    }
+
+    .result__circle{
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .result__76{
+        font-size: 3rem;
+    }
+
+    .result__limit{
+        font-size: 0.9rem;
+    }
+
+    .result__great{
+        font-size: 1.4rem;
+    }
+
+    .result__text{
+        font-size: 0.8rem;
+    }
+
+    .summary{
+        padding: 1rem 1.6rem;
+        height: 23rem;
+    }
+
+    .summary__title{
+        font-size:1rem;
+    }
+
+    .summary__lists{
+        font-size: 0.8rem;
+    }
+
+    .summary__list:last-child{
+        margin-bottom:1.2rem;
+    }
+}

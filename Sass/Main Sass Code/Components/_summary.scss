@@ -1,0 +1,85 @@
+.summary{
+    width: 19.5rem;
+    height: 24rem;
+    padding: 1.4rem 2rem;
+
+    &__title{
+        color: $neutral-dark-gray-blue;
+        font-size: 1.4rem;
+        margin-bottom: 1.2rem;
+    }
+
+    &__lists{
+        list-style: none;
+        font-size: 0.9rem;
+        font-weight: 700;
+    }
+
+    &__list{
+        margin-bottom: 0.8rem;
+        padding: 0.8rem 0.6rem;
+        display: flex;
+        align-items: center;
+        border-radius: 6px;
+        position: relative;
+    }
+
+    &--first-list{
+        background-color: rgba($primary-light-red,0.1);
+    }
+
+    &--second-list{
+        background-color: rgba($primary-orangey-yellow,0.1);
+    }
+
+    &--third-list{
+        background-color: rgba($primary-green-teal,0.1);
+    }
+
+    &--fourth-list{
+        background-color: rgba($primary-cobalt-blue,0.1);
+    }
+
+    &__list:last-child{
+        margin-bottom: 1.4rem;
+    }
+
+    &--anchor-flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__icon{
+        margin-right: 0.6rem;
+    }
+
+    &--bold{
+        font-weight: 700;
+    }
+
+    &--light{
+        color: rgba($neutral-dark-gray-blue,0.6);
+
+    }
+
+    &__numbers{
+        position:absolute;
+        right: 10px;
+    }
+
+    &__btn{
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: $neutral-white;
+        background-color: $neutral-dark-gray-blue;
+        padding: 0.8rem 6rem;
+        border-radius: 20px;
+        transition: all 0.2s;
+
+        &:hover{
+            opacity: 0.9;
+            background-image: linear-gradient(to top,$gradient-light-royal-blue,$gradient-light-slate-blue);
+        }
+    }
+}
